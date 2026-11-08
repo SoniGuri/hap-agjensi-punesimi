@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793024656274,
+      "tag": "0000_careful_praxagora",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793026183795,
+      "tag": "0001_lying_sir_ram",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1794142768126,
+      "tag": "0002_moaning_wonder_man",
+      "breakpoints": true
+    }
+  ]
+}
