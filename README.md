@@ -60,7 +60,19 @@ Për ta ndalur, shtyp **Ctrl+C**. Herët e tjera mjafton të hapësh PowerShell 
 - Zgjidh **Hyr si admin**, ose hap `/admin`, dhe fut emailin e fjalëkalimin e administratorit.
 - Në panel kliko **Posto një punë**, plotëso njoftimin dhe zgjidh statusin **Publikuar** që të shfaqet në website.
 - Mund të ruash njoftime si **Draft**, t'i ndryshosh ose t'i vendosësh **Mbyllur** për t'i hequr nga lista e punëve aktive.
-- Për të krijuar një administrator tjetër, zgjidh **Krijo llogari admin** dhe plotëso emrin, emailin, fjalëkalimin, konfirmimin dhe kodin sekret të konfigurimit lokal.
+- Për të krijuar një administrator tjetër, ndiq hapat te **7. Si të regjistrohesh si admin**.
 - Kliko **Dil nga llogaria** për të mbyllur sesionin e administratorit.
 
 Formulari i kandidatit e shkarkon aplikimin në pajisjen e përdoruesit; nuk e dërgon online te agjencia.
+
+## 7. Si të regjistrohesh si admin
+
+1. Pasi të kesh nisur faqen, kliko **Hyr si admin** në menunë kryesore ose hap **http://127.0.0.1:5173/admin**.
+2. Poshtë formularit të hyrjes, kliko **Krijo llogari admin**.
+3. Plotëso **emrin**, **emailin** dhe një **fjalëkalim me të paktën 8 karaktere**.
+4. Te **Konfirmo fjalëkalimin**, shkruaj përsëri të njëjtin fjalëkalim.
+5. Te **Kodi sekret i regjistrimit**, fut kodin e konfigurimit të kësaj kopjeje të faqes. Për një projekt të saposhkarkuar, ky është kodi që u shfaq në terminal kur ekzekutove `npm run setup:local` në hapin 3. Nëse po përdor një faqe të konfiguruar nga dikush tjetër, kërkoja kodin pronarit të saj.
+6. Kliko **Krijo llogarinë**. Nëse të dhënat dhe kodi janë të sakta, llogaria ruhet dhe hapet automatikisht paneli i adminit.
+7. Herët e tjera, përdor formularin **Hyr në panel** me emailin dhe fjalëkalimin që zgjodhe.
+
+Çdo llogari duhet të ketë një email të veçantë. Nëse emaili është regjistruar më parë, përdor llogarinë ekzistuese. Nëse kodi refuzohet, kontrollo që është kodi i kopjes së faqes që po përdor.
