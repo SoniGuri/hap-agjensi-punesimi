@@ -67,6 +67,10 @@ Formulari i kandidatit e shkarkon aplikimin në pajisjen e përdoruesit; nuk e d
 
 ## 7. Si të regjistrohesh si admin
 
+**Kodi sekret për kopjen e konfiguruar të këtij projekti është: `unejamadmin`.**
+
+Nëse shkarkon një kopje të re dhe përdor `npm run setup:local`, skripti krijon një kod tjetër rastësor për atë kopje. Në këtë rast përdor kodin që shfaqet në terminal.
+
 1. Pasi të kesh nisur faqen, kliko **Hyr si admin** në menunë kryesore ose hap **http://127.0.0.1:5173/admin**.
 2. Poshtë formularit të hyrjes, kliko **Krijo llogari admin**.
 3. Plotëso **emrin**, **emailin** dhe një **fjalëkalim me të paktën 8 karaktere**.
